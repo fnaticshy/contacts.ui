@@ -32,6 +32,12 @@ const routes = [
     name: 'reg',
     component: Registration,
   },
+  {
+    path: '*',
+    name: 'Contacts',
+    component: Contacts,
+    beforeEnter: AuthGuard,
+  },
 ];
 
 const router = new VueRouter({

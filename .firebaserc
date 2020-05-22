@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "todo-test-ui-30d09"
+    "default": "todo-test-ui-30d09",
+    "contacts": "contacts-ui-c1752"
   }
 }

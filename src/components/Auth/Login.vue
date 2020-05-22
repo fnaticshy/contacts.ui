@@ -52,6 +52,9 @@ export default {
     loading() {
       return this.$store.getters.loading;
     },
+    savedUserId() {
+      return this.$store.getters.savedUserId;
+    },
   },
   data() {
     return {
@@ -85,6 +88,9 @@ export default {
     },
   },
   created() {
+    if (this.savedUserId) {
+      this.$router.push('/contacts');
+    }
     if (this.$route.query.loginError) {
       this.$store.dispatch('setError', 'Please log in to access this page.');
     }

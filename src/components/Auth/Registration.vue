@@ -63,6 +63,9 @@ export default {
     loading() {
       return this.$store.getters.loading;
     },
+    savedUserId() {
+      return this.$store.getters.savedUserId;
+    },
   },
   data() {
     return {
@@ -101,6 +104,11 @@ export default {
       }
     },
   },
+  created() {
+    if (this.savedUserId) {
+      this.$router.push('/contacts');
+    }
+  }
 };
 </script>
 

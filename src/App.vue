@@ -170,9 +170,9 @@ export default {
       this.$store.dispatch('clearError');
     },
     onLogout() {
+      this.$router.push('/login');
       this.$store.dispatch('logoutUser');
       this.$store.dispatch('clearContacts');
-      this.$router.push('/login');
     },
   },
   data() {
