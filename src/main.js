@@ -14,13 +14,13 @@ new Vue({
   render: (h) => h(App),
   created() {
     const firebaseConfig = {
-      apiKey: 'AIzaSyA6teSWGuXKG7MS5xTcQcqPd24sht3jryQ',
-      authDomain: 'todo-test-ui-30d09.firebaseapp.com',
-      databaseURL: 'https://todo-test-ui-30d09.firebaseio.com',
-      projectId: 'todo-test-ui-30d09',
-      storageBucket: 'todo-test-ui-30d09.appspot.com',
-      messagingSenderId: '288202129076',
-      appId: '1:288202129076:web:244e8197cec4c399fd21e1',
+      apiKey: 'AIzaSyAwk9UFVxX3PnHhCYF51c-Lj9SPIyaFW8s',
+      authDomain: 'contacts-ui-c1752.firebaseapp.com',
+      databaseURL: 'https://contacts-ui-c1752.firebaseio.com',
+      projectId: 'contacts-ui-c1752',
+      storageBucket: 'contacts-ui-c1752.appspot.com',
+      messagingSenderId: '227523823881',
+      appId: '1:227523823881:web:b97609d674ce7c2ca32bd8',
     };
     fb.initializeApp(firebaseConfig);
 
