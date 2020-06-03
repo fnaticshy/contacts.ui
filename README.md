@@ -1,5 +1,5 @@
-# vue-chat
-host https://realtime-chat-fns.web.app/
+# contacts ui
+
 ## Project setup
 ```
 npm install
